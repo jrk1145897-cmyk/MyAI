@@ -29,3 +29,11 @@ My AI automation skills, plugins, and commands for Claude Code.
 ### Other Commands
 - `/launch-check` - MVP launch readiness checker
 - `/deckling` - Generate PowerPoint presentations
+
+## Credits
+
+The following skills and plugins are adapted from [ooiyeefei/ccc](https://github.com/ooiyeefei/ccc):
+- deckling
+- mvp-launch
+- product-management
+- excalidraw
