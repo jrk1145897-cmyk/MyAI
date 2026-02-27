@@ -8,7 +8,6 @@ My AI automation skills, plugins, and commands for Claude Code.
 |------|-------------|
 | [meeting-notes](./skills/meeting-notes) | Process meeting transcripts into Notion summaries and action items |
 | [excalidraw](./skills/excalidraw) | Generate architecture diagrams as `.excalidraw` files with PNG/SVG export |
-| [streak](./skills/streak) | Universal challenge tracker with flexible cadence and AI insights |
 | [uat-testing](./skills/uat-testing) | User acceptance testing workflow |
 
 ## Plugins
@@ -20,14 +19,6 @@ My AI automation skills, plugins, and commands for Claude Code.
 | [product-management](./plugins/product-management) | AI-native PM: competitor research, gap analysis, WINNING prioritization |
 
 ## Commands
-
-### Streak Commands
-- `/streak` - Check in to active challenge
-- `/streak-new` - Create a new challenge
-- `/streak-list` - List all challenges
-- `/streak-switch NAME` - Switch active challenge
-- `/streak-stats` - View progress and achievements
-- `/streak-insights` - Cross-challenge insights
 
 ### Product Management Commands
 - `/pm analyze` - Deep product understanding

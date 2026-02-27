@@ -1,3 +1,0 @@
-# Streak Bot Dependencies
-python-telegram-bot[job-queue]==21.0
-pytz>=2024.1
