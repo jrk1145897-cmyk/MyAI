@@ -19,3 +19,18 @@ Process meeting transcripts to create Notion meeting summaries and action items.
 - Extracts action items with assignees, due dates, and priorities
 - Links action items to meeting notes via Notion relation
 - Adds detailed context to each action item's page content
+
+### excalidraw
+
+Generate architecture diagrams as `.excalidraw` files from codebase analysis, with optional PNG/SVG export.
+
+**Triggers:**
+- "generate architecture diagram", "create excalidraw diagram"
+- "visualize codebase", "system diagram"
+- "export excalidraw to PNG/SVG"
+
+**Features:**
+- Analyzes any codebase (any language/framework) to identify components
+- Generates valid `.excalidraw` JSON with proper bindings and routing
+- Supports PNG/SVG export via Playwright
+- Includes semantic color palettes for different component types

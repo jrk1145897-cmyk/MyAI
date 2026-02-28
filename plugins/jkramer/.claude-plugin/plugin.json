@@ -1,9 +1,9 @@
 {
   "name": "jkramer",
-  "version": "1.0.0",
-  "description": "Custom productivity skills: meeting transcripts → Notion summaries + action items",
+  "version": "1.1.0",
+  "description": "Custom productivity skills: meeting transcripts → Notion summaries + action items, architecture diagrams → Excalidraw files",
   "author": {
     "name": "Jon Kramer"
   },
-  "keywords": ["meeting-notes", "notion", "productivity", "action-items", "transcripts"]
+  "keywords": ["meeting-notes", "notion", "productivity", "action-items", "transcripts", "excalidraw", "architecture", "diagrams", "visualization"]
 }
