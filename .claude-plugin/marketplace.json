@@ -34,6 +34,13 @@
       "source": "./plugins/jkramer",
       "description": "Custom productivity skills: meeting transcripts → Notion summaries + action items",
       "keywords": ["meeting-notes", "notion", "productivity", "action-items", "transcripts"]
+    },
+    {
+      "name": "product-manager-prompts",
+      "version": "1.0.0",
+      "source": "./plugins/product-manager-prompts",
+      "description": "PM validation and prompting toolkit based on Dean Peters' product-manager-prompts. Structured frameworks for Jobs-to-be-Done, user stories, positioning statements, customer journey mapping, PESTEL analysis, TAM/SAM/SOM, Working Backwards, and Proto-Personas.",
+      "keywords": ["product-management", "jobs-to-be-done", "user-stories", "positioning", "customer-journey", "pestel", "tam-sam-som", "working-backwards", "validation"]
     }
   ],
   "skills": [
