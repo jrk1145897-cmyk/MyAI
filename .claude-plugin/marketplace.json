@@ -27,6 +27,13 @@
       "source": "./plugins/product-management",
       "description": "AI-native product management for startups. Transform Claude into an expert PM with competitive research, gap analysis using the WINNING filter, PRD generation, and GitHub Issues integration.",
       "keywords": ["product-management", "competitive-analysis", "feature-requests", "prd", "roadmap", "github-issues"]
+    },
+    {
+      "name": "jkramer",
+      "version": "1.0.0",
+      "source": "./plugins/jkramer",
+      "description": "Personal productivity plugin for Jon Kramer. Includes meeting notes processing with Notion integration, action item extraction, and team collaboration tools.",
+      "keywords": ["meeting-notes", "notion", "productivity", "action-items", "transcripts"]
     }
   ],
   "skills": [
