@@ -12,39 +12,21 @@
       "version": "0.1.0",
       "source": "./plugins/deckling",
       "description": "Generate native PPTX files using Anthropic Platform Skills. No ugly python-pptx - uses Anthropic's server-side rendering engine.",
-      "keywords": ["pptx", "powerpoint", "slides", "presentations", "platform-skills"],
-      "commands": {
-        "deckling": {
-          "description": "Generate PPTX presentations"
-        }
-      }
+      "keywords": ["pptx", "powerpoint", "slides", "presentations", "platform-skills"]
     },
     {
       "name": "mvp-launch",
       "version": "1.0.0",
       "source": "./plugins/mvp-launch",
       "description": "Web app MVP launch readiness checker. Analyzes codebases against a battle-tested 10-point checklist (Stripe, mobile, onboarding, AI stability, emails, logging, feedback, auth, domain, database).",
-      "keywords": ["mvp", "launch", "checklist", "gap-analysis", "stripe", "saas", "startup", "production-ready"],
-      "commands": {
-        "launch-check": {
-          "description": "Run MVP launch readiness check"
-        }
-      }
+      "keywords": ["mvp", "launch", "checklist", "gap-analysis", "stripe", "saas", "startup", "production-ready"]
     },
     {
       "name": "product-management",
       "version": "0.1.0",
       "source": "./plugins/product-management",
       "description": "AI-native product management for startups. Transform Claude into an expert PM with competitive research, gap analysis using the WINNING filter, PRD generation, and GitHub Issues integration.",
-      "keywords": ["product-management", "competitive-analysis", "feature-requests", "prd", "roadmap", "github-issues"],
-      "commands": {
-        "pm:analyze": { "description": "Analyze product" },
-        "pm:landscape": { "description": "Competitive landscape" },
-        "pm:gaps": { "description": "Gap analysis" },
-        "pm:file": { "description": "File feature request" },
-        "pm:prd": { "description": "Generate PRD" },
-        "pm:sync": { "description": "Sync to GitHub" }
-      }
+      "keywords": ["product-management", "competitive-analysis", "feature-requests", "prd", "roadmap", "github-issues"]
     }
   ],
   "skills": [
