@@ -22,7 +22,7 @@ MyAI/
 Add this marketplace to Claude Code:
 
 ```bash
-/plugin marketplace add /path/to/MyAI
+/plugin marketplace add https://github.com/jrk1145897-cmyk/MyAI
 ```
 
 Then install plugins:
