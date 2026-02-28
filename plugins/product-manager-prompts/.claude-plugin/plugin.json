@@ -1,0 +1,10 @@
+{
+  "name": "product-manager-prompts",
+  "version": "1.0.0",
+  "description": "PM validation and prompting toolkit based on Dean Peters' product-manager-prompts. Provides structured frameworks for Jobs-to-be-Done, user stories, positioning statements, customer journey mapping, PESTEL analysis, TAM/SAM/SOM, and Working Backwards documents. Use to validate and improve PM artifacts.",
+  "author": {
+    "name": "Jon Kramer",
+    "attribution": "Based on product-manager-prompts by Dean Peters (https://github.com/deanpeters/product-manager-prompts)"
+  },
+  "keywords": ["product-management", "jobs-to-be-done", "user-stories", "positioning", "customer-journey", "pestel", "tam-sam-som", "working-backwards", "prd", "validation"]
+}
