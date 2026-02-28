@@ -32,7 +32,7 @@
       "name": "jkramer",
       "version": "1.0.0",
       "source": "./plugins/jkramer",
-      "description": "Personal productivity plugin for Jon Kramer. Includes meeting notes processing with Notion integration, action item extraction, and team collaboration tools.",
+      "description": "Custom productivity skills: meeting transcripts → Notion summaries + action items",
       "keywords": ["meeting-notes", "notion", "productivity", "action-items", "transcripts"]
     }
   ],

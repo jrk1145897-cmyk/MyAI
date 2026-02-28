@@ -15,6 +15,7 @@ Then install any plugin:
 ```bash
 /plugin install deckling@jkramer-marketplace
 /plugin install product-management@jkramer-marketplace
+/plugin install jkramer@jkramer-marketplace
 ```
 
 ## Plugins
@@ -24,6 +25,7 @@ Then install any plugin:
 | [deckling](./plugins/deckling) | `/deckling` | Generate PPTX presentations using Anthropic Platform Skills API |
 | [mvp-launch](./plugins/mvp-launch) | `/launch-check` | MVP launch readiness checker with 10-point checklist |
 | [product-management](./plugins/product-management) | `/pm:*` | AI-native PM: competitive research, gap analysis, WINNING prioritization |
+| [jkramer](./plugins/jkramer) | `/meeting-notes` | Custom productivity skills: meeting transcripts → Notion summaries + action items |
 
 ## Skills
 
@@ -55,6 +57,12 @@ Then install any plugin:
 ```
 /launch-check   # Run 10-point readiness audit
 ```
+
+### Meeting Notes (jkramer)
+```
+/meeting-notes  # Process transcript → Notion summary + action items
+```
+Triggers automatically when you paste meeting transcripts or say "meeting notes".
 
 ## Credits
 
