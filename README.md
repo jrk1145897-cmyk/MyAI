@@ -171,9 +171,8 @@ End-to-end User Acceptance Testing for web applications.
 
 ## Credits
 
-The following plugins are adapted from [ooiyeefei/ccc](https://github.com/ooiyeefei/ccc):
+The following are adapted from [ooiyeefei/ccc](https://github.com/ooiyeefei/ccc):
 - deckling
 - mvp-launch
 - product-management
-
-The excalidraw skill originated from the same source and has been enhanced with export capabilities.
+- excalidraw (moved to jkramer plugin)
