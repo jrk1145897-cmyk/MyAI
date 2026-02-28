@@ -1,34 +1,60 @@
-# MyAI
+# MyAI Marketplace
 
-My AI automation skills, plugins, and commands for Claude Code.
+A personal plugin marketplace for Claude Code with AI automation skills, plugins, and commands.
 
-## Skills
+## Installation
 
-| Name | Description |
-|------|-------------|
-| [meeting-notes](./skills/meeting-notes) | Process meeting transcripts into Notion summaries and action items |
-| [excalidraw](./skills/excalidraw) | Generate architecture diagrams as `.excalidraw` files with PNG/SVG export |
-| [uat-testing](./skills/uat-testing) | User acceptance testing workflow |
+Add this marketplace to Claude Code:
+
+```bash
+/plugin marketplace add /path/to/MyAI
+```
+
+Then install any plugin:
+
+```bash
+/plugin install deckling@jkramer-marketplace
+/plugin install product-management@jkramer-marketplace
+```
 
 ## Plugins
 
-| Name | Description |
-|------|-------------|
-| [deckling](./plugins/deckling) | Generate PPTX presentations using Anthropic Platform Skills API |
-| [mvp-launch](./plugins/mvp-launch) | MVP launch readiness checker with `/launch-check` command |
-| [product-management](./plugins/product-management) | AI-native PM: competitor research, gap analysis, WINNING prioritization |
+| Name | Commands | Description |
+|------|----------|-------------|
+| [deckling](./plugins/deckling) | `/deckling` | Generate PPTX presentations using Anthropic Platform Skills API |
+| [mvp-launch](./plugins/mvp-launch) | `/launch-check` | MVP launch readiness checker with 10-point checklist |
+| [product-management](./plugins/product-management) | `/pm:*` | AI-native PM: competitive research, gap analysis, WINNING prioritization |
 
-## Commands
+## Skills
 
-### Product Management Commands
-- `/pm analyze` - Deep product understanding
-- `/pm landscape` - Market overview + competitors
-- `/pm gaps` - Batch gap analysis with WINNING scores
-- `/pm file` - Create GitHub Issues for top priorities
+| Name | Triggers | Description |
+|------|----------|-------------|
+| [meeting-notes](./skills/meeting-notes) | "meeting notes", "process this meeting" | Process transcripts into Notion summaries + action items |
+| [excalidraw](./skills/excalidraw) | "architecture diagram", "excalidraw" | Generate `.excalidraw` diagrams from codebase analysis |
+| [uat-testing](./skills/uat-testing) | "run UAT", "test this feature" | End-to-end acceptance testing with Playwright |
 
-### Other Commands
-- `/launch-check` - MVP launch readiness checker
-- `/deckling` - Generate PowerPoint presentations
+## Quick Reference
+
+### Product Management (`/pm:*`)
+```
+/pm:analyze     # Understand current product
+/pm:landscape   # Research competitors
+/pm:gaps        # Identify & score gaps (WINNING filter)
+/pm:file        # Create GitHub Issues
+/pm:prd         # Generate full PRD
+/pm:sync        # Sync with GitHub
+```
+
+### Deckling
+```
+/deckling "Quarterly Review - 3 slides"
+/deckling "Make title blue" --refine deck.pptx
+```
+
+### MVP Launch
+```
+/launch-check   # Run 10-point readiness audit
+```
 
 ## Credits
 

@@ -1,0 +1,57 @@
+{
+  "name": "jkramer-marketplace",
+  "version": "1.0.0",
+  "description": "Jon Kramer's personal plugin marketplace for Claude Code",
+  "plugins": [
+    {
+      "name": "deckling",
+      "version": "0.1.0",
+      "path": "plugins/deckling",
+      "description": "Generate native PPTX files using Anthropic Platform Skills. No ugly python-pptx - uses Anthropic's server-side rendering engine.",
+      "keywords": ["pptx", "powerpoint", "slides", "presentations", "platform-skills"],
+      "commands": ["/deckling"]
+    },
+    {
+      "name": "mvp-launch",
+      "version": "1.0.0",
+      "path": "plugins/mvp-launch",
+      "description": "Web app MVP launch readiness checker. Analyzes codebases against a battle-tested 10-point checklist (Stripe, mobile, onboarding, AI stability, emails, logging, feedback, auth, domain, database).",
+      "keywords": ["mvp", "launch", "checklist", "gap-analysis", "stripe", "saas", "startup", "production-ready"],
+      "commands": ["/launch-check"]
+    },
+    {
+      "name": "product-management",
+      "version": "0.1.0",
+      "path": "plugins/product-management",
+      "description": "AI-native product management for startups. Transform Claude into an expert PM with competitive research, gap analysis using the WINNING filter, PRD generation, and GitHub Issues integration.",
+      "keywords": ["product-management", "competitive-analysis", "feature-requests", "prd", "roadmap", "github-issues"],
+      "commands": ["/pm:analyze", "/pm:landscape", "/pm:gaps", "/pm:file", "/pm:prd", "/pm:sync"]
+    }
+  ],
+  "skills": [
+    {
+      "name": "meeting-notes",
+      "version": "1.0.0",
+      "path": "skills/meeting-notes",
+      "description": "Process meeting transcripts to create Notion meeting summaries and action items. Extracts metadata, generates topic-organized notes, and creates linked action items with assignees and due dates.",
+      "keywords": ["meetings", "transcripts", "notion", "action-items", "notes"],
+      "triggers": ["meeting notes", "process this meeting", "summarize this transcript"]
+    },
+    {
+      "name": "excalidraw",
+      "version": "1.0.0",
+      "path": "skills/excalidraw",
+      "description": "Generate architecture diagrams as .excalidraw files from codebase analysis, with optional PNG/SVG export via Playwright.",
+      "keywords": ["diagrams", "architecture", "excalidraw", "visualization", "export"],
+      "triggers": ["architecture diagram", "excalidraw", "visualize codebase"]
+    },
+    {
+      "name": "uat-testing",
+      "version": "1.0.0",
+      "path": "skills/uat-testing",
+      "description": "End-to-end User Acceptance Testing for web applications. Analyzes branch changes, generates exhaustive test cases, executes via Playwright, and produces pass/fail reports with screenshots.",
+      "keywords": ["testing", "uat", "playwright", "acceptance-testing", "qa"],
+      "triggers": ["run UAT", "test this feature", "acceptance test", "test my branch"]
+    }
+  ]
+}
