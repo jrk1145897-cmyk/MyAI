@@ -38,14 +38,6 @@
   ],
   "skills": [
     {
-      "name": "meeting-notes",
-      "version": "1.0.0",
-      "source": "./skills/meeting-notes",
-      "description": "Process meeting transcripts to create Notion meeting summaries and action items. Extracts metadata, generates topic-organized notes, and creates linked action items with assignees and due dates.",
-      "keywords": ["meetings", "transcripts", "notion", "action-items", "notes"],
-      "triggers": ["meeting notes", "process this meeting", "summarize this transcript"]
-    },
-    {
       "name": "excalidraw",
       "version": "1.0.0",
       "source": "./skills/excalidraw",
