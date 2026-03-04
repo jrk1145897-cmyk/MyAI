@@ -6,15 +6,16 @@ A personal Claude Code plugin marketplace with AI-powered productivity tools, pr
 
 ```
 MyAI/
-├── .claude-plugin/          # Marketplace configuration
-│   └── marketplace.json     # Plugin registry for Claude Code
-├── plugins/                 # Installable Claude Code plugins
-│   ├── deckling/           # PPTX generation via Anthropic Platform Skills
-│   ├── mvp-launch/         # MVP launch readiness checker
-│   ├── product-management/ # AI-native PM workflows
-│   └── jkramer/            # Personal productivity (meeting notes, diagrams)
-└── skills/                  # Standalone skills (not plugin-bundled)
-    └── uat-testing/        # End-to-end acceptance testing with Playwright
+├── .claude-plugin/              # Marketplace configuration
+│   └── marketplace.json         # Plugin registry for Claude Code
+├── plugins/                     # Installable Claude Code plugins
+│   ├── deckling/               # PPTX generation via Anthropic Platform Skills
+│   ├── mvp-launch/             # MVP launch readiness checker
+│   ├── product-management/     # AI-native PM workflows
+│   ├── product-manager-prompts/# PM validation frameworks (JTBD, positioning, etc.)
+│   └── jkramer/                # Personal productivity (meeting notes, diagrams)
+└── skills/                      # Standalone skills (not plugin-bundled)
+    └── uat-testing/            # End-to-end acceptance testing with Playwright
 ```
 
 ## Installation
@@ -31,6 +32,7 @@ Then install plugins:
 /plugin install deckling@jkramer-marketplace
 /plugin install mvp-launch@jkramer-marketplace
 /plugin install product-management@jkramer-marketplace
+/plugin install product-manager-prompts@jkramer-marketplace
 /plugin install jkramer@jkramer-marketplace
 ```
 
@@ -86,9 +88,28 @@ AI-native product management for startups. Transforms Claude into an expert PM.
 - WINNING prioritization filter (Worth building, Important, New to us, Needed, Implementable, Next step clear, Good for users)
 - Competitive research with web search
 - GitHub Issues integration with deduplication
-- Local `.pm-data/` cache for offline work
+- Local `.pm/` cache for offline work
 
 **Agents:** gap-analyst, research-agent, prd-generator
+
+---
+
+### product-manager-prompts
+
+PM validation and prompting frameworks based on [Dean Peters' product-manager-prompts](https://github.com/deanpeters/product-manager-prompts).
+
+| Skill | Use For |
+|-------|---------|
+| `jobs-to-be-done` | Customer needs via Value Proposition Canvas |
+| `user-stories` | Requirements with Given/When/Then criteria |
+| `problem-positioning` | Problem statements and Geoffrey Moore positioning |
+| `customer-journey` | Mapping touchpoints and emotional states |
+| `market-analysis` | PESTEL analysis, TAM/SAM/SOM sizing |
+| `working-backwards` | Amazon-style press release before building |
+| `proto-persona` | Initial persona hypotheses for validation |
+| `recommendation-canvas` | Evaluating and presenting AI solutions |
+
+**Triggers:** "JTBD", "user story", "positioning statement", "customer journey", "PESTEL", "TAM SAM SOM", "working backwards", "proto-persona"
 
 ---
 
@@ -176,3 +197,5 @@ The following are adapted from [ooiyeefei/ccc](https://github.com/ooiyeefei/ccc)
 - mvp-launch
 - product-management
 - excalidraw (moved to jkramer plugin)
+
+The product-manager-prompts plugin is based on [deanpeters/product-manager-prompts](https://github.com/deanpeters/product-manager-prompts).
